@@ -1,0 +1,38 @@
+.btn-custom-login{
+    display: block;
+    color: white;
+    font-size:30px;
+    background: linear-gradient(to left,#498fff,#8eb9ff);
+    -webkit-border-radius: 36000px;
+    -moz-border-radius: 36000px;
+    border-radius: 36000px;
+    transition: all,0.5s;
+    margin-top: 20px;
+}
+.btn-custom-signup{
+    display: block;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(to left,#17c900,#dfffdb);
+    -webkit-border-radius: 36000px;
+    -moz-border-radius: 36000px;
+    border-radius: 36000px;
+    transition: all,0.5s;
+    margin-top:20px;
+}
+.btn-custom-login:hover{
+    color: blue;
+}
+.btn-custom-signup:hover{
+    color: green;
+}
+.header{
+    background: #444444;
+}
+.logo{
+    height:183px;
+
+}
+.logo:hover{
+-webkit-filter: opacity(40%);filter: opacity(40%);
+}

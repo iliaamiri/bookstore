@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^login$ l0g1n.php [L]
+RewriteRule ^signup signup.php [L]
+RewriteRule ^account$ account/index.php [L]
+RewriteRule ^account/me$ account/index.php?d=profile&f=index [L]
+RewriteRule ^account/me_edit$ account/index.php?d=profile&f=edit [L]
+RewriteRule ^account/help$ account/help.html [L]
+RewriteRule ^admin/AddBook$ admin/index.php?d=books&f=add [L]
+RewriteRule ^admin/Book$ admin/index.php?d=books&f=index [L]
+RewriteRule ^admin/ApplyBooks$ admin/index.php?d=books&f=apply [L]

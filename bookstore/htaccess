@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^login$ l0g1n.php [L]
+RewriteRule ^signup$ signup.php [L]

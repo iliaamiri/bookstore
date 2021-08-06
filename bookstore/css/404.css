@@ -1,0 +1,45 @@
+body{
+    background: rgb(31, 37, 61);
+}
+.box{
+    border:10px solid white;
+    background-color: rgba(216, 40, 76, 0.98);
+    margin-top:140px;
+}
+.e404{
+    font-size:240px;
+    font-family:'Josefin Slab';
+    color: white;
+    margin-top:-50px;
+    text-align: center;
+    display: block;
+}
+.sorry{
+    font-size:30px;
+    color: rgb(31, 37, 61);
+    font-family:'Arvo';
+    text-align: center;
+}
+.submit{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(25, 24, 24);
+    padding:10px;
+    border:1px solid rgb(25, 24, 24);
+    display: inline-block;
+    margin:0px auto;
+    margin-top:14px;
+    margin-bottom:20px;
+    width:450px;
+    color: white;
+    font-family:'Arvo';
+    transition: all,0.5s;
+}
+.submit:hover{
+    background: rgb(40, 40, 40);
+    border:1px solid rgb(40, 40, 40);
+}
+.submit:focus{
+    background: rgb(53, 53, 53);
+}

@@ -1,0 +1,51 @@
+body{
+    background: rgb(31, 37, 61);
+}
+.box{
+    border:10px solid white;
+    background-color: rgba(216, 40, 76, 0.98);
+}
+.sidebar-left{
+    border:5px solid white;
+}
+.btn-custom-sideba{
+    background: grey;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding:7px 10px;
+    margin-top:5px;
+    margin-left:3px;
+    margin-bottom:5px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.sidebar-left-item{
+    text-align: center;
+    background: deepskyblue;
+    padding:10px;
+    border-bottom:1px solid white;
+    transition: all,0.5s;
+    font-family:'Arvo';
+    color: rgb(31, 37, 61);
+}
+.sidebar-left-item:hover{
+    background: dodgerblue;
+    color: white;
+}
+.col-md-2 a:hover{
+    text-decoration: none;
+}
+.col-md-2 a:hover{
+    text-decoration: none;
+}
+/* ads */
+.sidebar-left-ad1{
+    border-top:1px solid white;
+    height:150px;
+    font-size:100px;
+    text-align: center;
+}

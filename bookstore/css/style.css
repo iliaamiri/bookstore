@@ -1,0 +1,113 @@
+body{
+    background: rgb(31, 37, 61);
+}
+.logo{
+    margin:0px auto;
+    width:200px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    border-radius: 360px;
+    margin-top:20px;
+    transition: all,0.5s;
+}
+.logo:hover{
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    -o-transform: scale(1.20);
+    transform: scale(1.20);
+}
+.box{
+    border:10px solid white;
+    background-color: rgba(216, 40, 76, 0.98);
+    margin-top:20px;
+}
+.header{
+    font-size:100px;
+    font-family:'Josefin Slab';
+    color: white;
+    margin-top:50px;
+    text-align: center;
+    display: block;
+}
+.submit{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(25, 24, 24);
+    padding:10px;
+    border:1px solid rgb(25, 24, 24);
+    display: inline-block;
+    margin:0px auto;
+    margin-top:14px;
+    margin-bottom:20px;
+    width:200px;
+    color: white;
+    font-family:'Arvo';
+    transition: all,0.5s;
+}
+.submit:hover{
+    background: rgb(40, 40, 40);
+    border:1px solid rgb(40, 40, 40);
+}
+.submit:focus{
+    background: rgb(53, 53, 53);
+}
+.email{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(25, 24, 24);
+    padding:10px;
+    border:1px solid rgb(25, 24, 24);
+    display: inline-block;
+    margin:0px auto;
+    margin-top:14px;
+    margin-bottom:20px;
+    width:450px;
+    color: white;
+    font-family:'Arvo';
+    transition: all,0.5s;
+}
+.check{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(25, 24, 24);
+    padding:20px;
+    border:1px solid rgb(25, 24, 24);
+    display: block;
+    text-align: center;
+    font-size:50px;
+    margin:0px auto;
+    margin-top:14px;
+    margin-bottom:20px;
+    width:450px;
+    color: white;
+    font-family:'Arvo';
+    transition: all,0.5s;
+}
+.input{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(25, 24, 24);
+    padding:10px;
+    border:1px solid rgb(25, 24, 24);
+    display: block;
+    margin:0px auto;
+    margin-top:14px;
+    margin-bottom:20px;
+    width:450px;
+    color: white;
+    font-family:'Arvo';
+    transition: all,1s;
+}
+.input:hover{
+     background: rgb(40, 40, 40);
+     border:1px solid rgb(40, 40, 40);
+ }
+.input:focus{
+    background: rgb(40, 40, 40);
+    border:1px solid rgb(40, 40, 40);
+}
